@@ -1,0 +1,30 @@
+- title: Home
+  url: /
+  class:   
+- title: Buy Art
+  url: /
+  class: hide-on-desktop
+- title: Prints & Originals
+  url: /prints-and-originals/
+  class: hide-on-mobile
+- title: Cards & Postcards
+  url: /cards-and-postcards/
+  class: hide-on-mobile
+- title: Posters & Gifts
+  url: /posters-and-gifts/
+  class: hide-on-mobile
+- title: Artist Story
+  url: /artist-story/
+  class:
+- title: Gallery
+  url: /gallery/
+  class:
+- title: Contact
+  url: /contact/
+  class:
+- title: View Cart
+  url: /view-cart
+  class:
+- title: More...
+  url: /more/
+  class: show-on-mobile
