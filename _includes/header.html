@@ -10,25 +10,33 @@
 	<meta property="og:type" content="website" />
 	<!-- <meta property="og:image" content="{{ page.image }}"/> -->
 	<meta name="description" content="{{ page.description }}" />
+	<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.carousel.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.form.css">
 	<link rel="stylesheet" type="text/css" href="/css/simplegrid.css" />
 	<link href="/assets/externals/fancybox/jquery.fancybox.css" rel="stylesheet">
 	<link href="/assets/customs/css/gallery.css" rel="stylesheet">
+	
 </head>
 
 <body>
 	<div class="container">
+		<a href="/">
 		<div class="header center">
 			<h1 class="x-large hide-on-mobile"><span class="bold">KELLIE RAE ART</span> | For Love of Minnesota</h1>
 			<h1 class="x-large hide-on-desktop"><span class="bold">KELLIE RAE ART</span> <br /><br />For Love of
 				Minnesota</h1>
 		</div>
+	</a>
 	</div>
 	<!-- Grid 2/3 and 1/3-->
 	<div class="grid">
 		<div class="col-1-4 leftside">
-			<div class="main-nav">
+			<div class="main-nav text-right">
 				{% for p in site.data.nav %}
-					<div class="col-1-1 mobile-col-1-2 {{ p.class }}"><a href="{{ p.url }}" title="" class="nav-link">{{ p.title }}</a></div>
+				<div class="col-1-1 mobile-col-1-2 {{ p.class }}"><a href="{{ p.url }}" title=""
+						class="nav-link">{{ p.title }}</a></div>
 				{% endfor %}
 			</div>
 			<div class="clear"></div><br /><br />

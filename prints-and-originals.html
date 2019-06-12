@@ -21,11 +21,12 @@ permalink: /prints-and-originals/
 				<img src="{{ p.thumbnail }}" class="grid-thumbnail-image" alt="" />
 				<div class="gallery-overly">
 					<div class="image-details">
-						<span class="image-title">{{ p.title }}<br />{{ p.size }}<br />${{ p.price }}</span>
+						<span class="image-title">{{ p.title }}<br />{{ p.size }}<br />{% if p.price %}${{ p.price }}{% endif %}</span>
 					</div>
 					<a class="grid-image-zoom" href="{{ p.img }}" data-fancybox-group="grid-gallery">
 						<div class="gallery-zoom-icon"></div>
 					</a>
+					{% if p.price %}
 					<div class="social-icon-area">
 						<div class="social-icons">
 							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -38,19 +39,22 @@ permalink: /prints-and-originals/
 							</form>
 						</div>
 					</div>
+					{% endif %}
 				</div>
 			</div>
 		</div>
 		{% endfor %}
-		<!-- jQuery -->
-		<script src="/assets/externals/jquery.min.js"></script>
-		<!-- ImagesLoaded JS -->
-		<script src="/assets/externals/imagesloaded.pkgd.min.js"></script>
-		<!-- Isotope JS -->
-		<script src="/assets/externals/isotope.pkgd.min.js"></script>
-		<!-- Masonry JS -->
-		<script src="/assets/externals/masonry.pkgd.min.js"></script>
-		<!-- FancyBox JS -->
-		<script src="/assets/externals/fancybox/jquery.fancybox.js"></script>
-		<!-- Custom JS -->
-		<script src="/assets/customs/js/gallery.js"></script>
+	</div>
+</section>
+<!-- jQuery -->
+<script src="/assets/externals/jquery.min.js"></script>
+<!-- ImagesLoaded JS -->
+<script src="/assets/externals/imagesloaded.pkgd.min.js"></script>
+<!-- Isotope JS -->
+<script src="/assets/externals/isotope.pkgd.min.js"></script>
+<!-- Masonry JS -->
+<script src="/assets/externals/masonry.pkgd.min.js"></script>
+<!-- FancyBox JS -->
+<script src="/assets/externals/fancybox/jquery.fancybox.js"></script>
+<!-- Custom JS -->
+<script src="/assets/customs/js/gallery.js"></script>

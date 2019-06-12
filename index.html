@@ -3,8 +3,35 @@ layout: default
 title: Home
 description: ""
 ---
-<img src="images/temp-hero.jpg" width="100%" alt="Temp Hero Image" /><br /><br />
+<!-- <img src="images/temp-hero.jpg" width="100%" alt="Temp Hero Image" /><br /><br /> -->
+<div id="fadeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+	<div class="carousel-inner">
+		{% assign n = 0%}
+		{% for image in site.static_files %}
+			{% if image.path contains 'images/slider' %}
+				<div class="carousel-item{% if n == 0 %} active{% endif %}">
+					<img src="{{ site.baseurl }}{{ image.path }}" alt="Kellie Rae Art" class="d-block w-100" />
+				</div>
+				{% increment n%}
+			{% endif %}
+		{% endfor %}
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+</div>
+{% for image in site.static_files %}
+{% if image.path contains 'images/slider' %}
+<!-- <img src="{{ site.baseurl }}{{ image.path }}" alt="image" width="100%" /> -->
+{% endif %}
+{% endfor %}
 <h2 class="blue bold xx-large center">Give yourself a gift</h2><br />
 <h2 class="green bold large center">Limited Edition 18" x 24" Minnesota Fish Poster - $150</h2><br />
 <p class="center"><img src="images/mn-below-the-surface.jpg" alt="MN Below The Surface - $150" width="75%" /><br /><br />
-<a href="#" title="Add MN Below the Surface to Cart"><img src="images/add-to-cart.png" alt="Add To Cart" width="300" /></a></p>
+	<a href="#" title="Add MN Below the Surface to Cart"><img src="images/add-to-cart.png" alt="Add To Cart" width="300" /></a>
+</p>
