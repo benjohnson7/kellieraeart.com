@@ -3,19 +3,29 @@ layout: default
 title: Prints & Originals
 description: ""
 permalink: /prints-and-originals/
+tags:
+  - print
+  - original
 ---
 <section class="grid-gallery-section">
 	<!-- Gallery Filters -->
 	<div id="gallery-filters" class="gallery-button-group">
 		<button class="filter-button is-checked" data-filter="*">ALL WORKS</button>
-		<button class="filter-button" data-filter=".birds">BIRDS</button>
+		<button class="filter-button" data-filter=".bird">BIRDS</button>
 		<button class="filter-button" data-filter=".iaap">INSECTS, AMPHIBIANS, AQUATIC PLANTS</button>
 		<button class="filter-button" data-filter=".fish">FISH</button>
 	</div>
 	<!-- Gallery Filters -->
 	<div class="grid-gallery">
 		<div class="gallery-grid-sizer"></div>
-		{% for p in site.data.gallery %}
+		{%- for p in site.data.gallery -%}
+		{%- assign valid = false -%}
+		{%- for type in p.type -%}
+			{%- if page.tags contains type -%}
+				{%- assign valid = true -%}
+			{%- endif -%}
+		{%- endfor -%}
+		{%- if valid -%}
 		<div class="gallery-grid-item {{ p.class }}">
 			<div class="gallery-image-area">
 				<img src="{{ p.thumbnail }}" class="grid-thumbnail-image" alt="" />
@@ -26,7 +36,7 @@ permalink: /prints-and-originals/
 					<a class="grid-image-zoom" href="{{ p.img }}" data-fancybox-group="grid-gallery">
 						<div class="gallery-zoom-icon"></div>
 					</a>
-					{% if p.price %}
+					{%- if p.price -%}
 					<div class="social-icon-area">
 						<div class="social-icons">
 							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -39,11 +49,12 @@ permalink: /prints-and-originals/
 							</form>
 						</div>
 					</div>
-					{% endif %}
+					{%- endif -%}
 				</div>
 			</div>
 		</div>
-		{% endfor %}
+		{%- endif -%}
+		{%- endfor -%}
 	</div>
 </section>
 <!-- jQuery -->

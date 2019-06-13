@@ -411,6 +411,20 @@ a .header {text-decoration: none; color: inherit;}
 .text-right {
 	text-align: right !important;
 }
+.text-center {
+	text-align: center !important;
+}
+@media (min-width: 768px) {
+	.text-md-left {
+		text-align: left !important;
+	}
+	.text-md-right {
+		text-align: right !important;
+	}
+	.text-md-center {
+		text-align: center !important;
+	}
+}
 
 .form-control {
 	padding: 0;
@@ -454,10 +468,23 @@ font-size: 1.25rem;
 p {
 	margin-top: 0;
 	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
   }
-
+  small {
+	font-size: 80%;
+  }
 .form-group textarea {
 	min-height: 50px;
 	max-height: 200px;
 	resize: vertical;
+}
+
+a {
+	color: inherit;
+}
+a:hover, a:visited, a:active, a:focus {
+	color: #000;
 }
