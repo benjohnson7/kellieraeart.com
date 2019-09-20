@@ -1,0 +1,490 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  Simple Grid
+  Project Page - http://thisisdallas.github.com/Simple-Grid/
+  Author - Dallas Bass
+  Site - http://dallasbass.com
+*/
+
+
+[class*='grid'],
+[class*='col-'],
+[class*='mobile-'],
+.grid:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+[class*='col-'] {
+	float: left;
+  	min-height: 1px;
+	padding-right: 0px; /* column-space */
+}
+
+[class*='col-'] [class*='col-']:last-child {
+	padding-right: 0;
+}
+
+.grid {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 748px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.grid-pad {
+	padding-top: 20px;
+	padding-left: 20px; /* grid-space to left */
+	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+}
+
+.push-right {
+	float: right;
+}
+
+/* Content Columns */
+
+.col-1-1 {
+	width: 100%;
+}
+.col-2-3, .col-8-12 {
+	width: 66.66%;
+}
+
+.col-1-2, .col-6-12 {
+	width: 50%;
+}
+
+.col-1-3, .col-4-12 {
+	width: 33.33%;
+}
+
+.col-1-4, .col-3-12 {
+	width: 25%;
+}
+
+.col-1-5 {
+	width: 20%;
+}
+
+.col-1-6, .col-2-12 {
+	width: 16.667%;
+}
+
+.col-1-7 {
+	width: 14.28%;
+}
+
+.col-1-8 {
+	width: 12.5%;
+}
+
+.col-1-9 {
+	width: 11.1%;
+}
+
+.col-1-10 {
+	width: 10%;
+}
+
+.col-1-11 {
+	width: 9.09%;
+}
+
+.col-1-12 {
+	width: 8.33%
+}
+
+/* Layout Columns */
+
+.col-11-12 {
+	width: 91.66%
+}
+
+.col-10-12 {
+	width: 83.333%;
+}
+
+.col-9-12, .col-3-4 {
+	width: 75%;
+}
+
+.col-5-12 {
+	width: 41.66%;
+}
+
+.col-7-12 {
+	width: 58.33%
+}
+
+/* Pushing blocks */
+
+.push-2-3, .push-8-12 {
+	margin-left: 66.66%;
+}
+
+.push-1-2, .push-6-12 {
+	margin-left: 50%;
+}
+
+.push-1-3, .push-4-12 {
+	margin-left: 33.33%;
+}
+
+.push-1-4, .push-3-12 {
+	margin-left: 25%;
+}
+
+.push-1-5 {
+	margin-left: 20%;
+}
+
+.push-1-6, .push-2-12 {
+	margin-left: 16.667%;
+}
+
+.push-1-7 {
+	margin-left: 14.28%;
+}
+
+.push-1-8 {
+	margin-left: 12.5%;
+}
+
+.push-1-9 {
+	margin-left: 11.1%;
+}
+
+.push-1-10 {
+	margin-left: 10%;
+}
+
+.push-1-11 {
+	margin-left: 9.09%;
+}
+
+.push-1-12 {
+	margin-left: 8.33%
+}
+
+.hide-on-mobile {
+		display: block !important;
+	}
+.hide-on-desktop {
+	display: none !important;
+}
+.show-on-mobile {
+    display: none !important;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+	.grid {
+		width: 100%;
+		min-width: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 20px; /* grid-space to left */
+		padding-right: 20px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+	}
+
+	[class*='col-'] {
+		width: auto;
+		float: none;
+		margin: 10px 0;
+		padding-left: 0;
+		padding-right: 0px; /* column-space */
+	}
+
+	[class*='col-'] [class*='col-'] {
+		padding-right: 0;
+	}
+
+	/* Mobile Layout */
+
+	[class*='mobile-col-'] {
+		float: left;
+		margin: 0 0 10px;
+		padding-left: 0;
+		padding-right: 0px; /* column-space */
+		padding-bottom: 0;
+	}
+
+	.mobile-col-1-1 {
+		width: 100%;
+	}
+	.mobile-col-2-3, .mobile-col-8-12 {
+		width: 66.66%;
+	}
+
+	.mobile-col-1-2, .mobile-col-6-12 {
+		width: 50%;
+	}
+
+	.mobile-col-1-3, .mobile-col-4-12 {
+		width: 33.33%;
+	}
+
+	.mobile-col-1-4, .mobile-col-3-12 {
+		width: 25%;
+	}
+
+	.mobile-col-1-5 {
+		width: 20%;
+	}
+
+	.mobile-col-1-6, .mobile-col-2-12 {
+		width: 16.667%;
+	}
+
+	.mobile-col-1-7 {
+		width: 14.28%;
+	}
+
+	.mobile-col-1-8 {
+		width: 12.5%;
+	}
+
+	.mobile-col-1-9 {
+		width: 11.1%;
+	}
+
+	.mobile-col-1-10 {
+		width: 10%;
+	}
+
+	.mobile-col-1-11 {
+		width: 9.09%;
+	}
+
+	.mobile-col-1-12 {
+		width: 8.33%
+	}
+
+	/* Layout Columns */
+
+	.mobile-col-11-12 {
+		width: 91.66%
+	}
+
+	.mobile-col-10-12 {
+		width: 83.333%;
+	}
+
+	.mobile-col-9-12 {
+		width: 75%;
+	}
+
+	.mobile-col-5-12 {
+		width: 41.66%;
+	}
+
+	.mobile-col-7-12 {
+		width: 58.33%
+	}
+
+	.hide-on-mobile {
+		display: none !important;
+	}
+    .show-on-mobile {
+		display: block !important;
+	}
+	.hide-on-desktop {
+		display: block !important;
+	}
+    .mobile-center {text-align: center;}
+    .mobile-padd-20 {padding: 20px 5px;}
+}
+
+html {font-family: 'CantoriaMTStd', sans-serif;}
+body {background-color: #8a9a5b;}
+p {line-height: 20px;}
+h1, h2, h3, h4 {font-family: 'CantoriaMTStd', sans-serif;}
+@font-face {
+  font-family: 'CantoriaMTStd';
+  src: url('CantoriaMTStd.eot?#iefix') format('embedded-opentype'),  url('CantoriaMTStd.otf')  format('opentype'),
+	     url('CantoriaMTStd.woff') format('woff'), url('CantoriaMTStd.ttf')  format('truetype'), url('CantoriaMTStd.svg#CantoriaMTStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a:link, a:visited {text-decoration: none; font-weight: bold;}
+a:active, a:hover {text-decoration: underline;}
+
+span.avoidwrap { display:inline-block; }
+
+.x-small {font-size: 12px;}
+.small {font-size: 14px;}
+.medium {font-size: 20px;}
+.large {font-size: 24px;}
+.x-large {font-size: 28px;}
+.xx-large {font-size: 32px;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+
+.blue {color: #658085;}
+.green {color: #8a9a5b;}
+.black {color: #000;}
+.white {color: #fff;}
+.body-bg {background-color: #8a9a5b;}
+.black-bg {background-color: #131313;}
+.white-bg {background-color: #fff; padding: 20px;}
+
+.left {text-align: left;}
+.right {text-align: right;}
+.center {text-align: center;}
+.justify {text-align: justify;}
+.clear {clear: both;}
+
+.no-padd {padding: 0px;}
+
+.container {width: 100%;}
+.header {background: #C4EBF2; padding: 20px 0;}
+a .header {text-decoration: none; color: inherit;}
+.logo {width: 100%; max-width: 500px;}
+.footer {background-color: #252525; width: 100%; padding: 15px 0px;}
+.footer a:link, .footer a:visited {color: #fff;}
+
+.leftside {background: #8a9a5b; padding: 10px;}
+.main-nav {background: #8a9a5b; padding: 10px;}
+.main-nav a {text-align: right; text-transform: uppercase;}
+.main-nav>div {margin: 2px 0px 4px;}
+.nav-link {text-align: right; color: black; padding: 5px 0; font-size: 18px; line-height: 32px;}
+
+.show-list {margin-left: 20px;}
+.show-list li {list-style-type: disc; padding: 5px 0px;}
+
+.text-right {
+	text-align: right !important;
+}
+.text-center {
+	text-align: center !important;
+}
+@media (min-width: 768px) {
+	.text-md-left {
+		text-align: left !important;
+	}
+	.text-md-right {
+		text-align: right !important;
+	}
+	.text-md-center {
+		text-align: center !important;
+	}
+}
+
+.form-control {
+	padding: 0;
+}
+.form-group {
+	width: 90%;
+	margin: 0 auto;
+}
+.form-group label {
+	display: block;
+	margin: 15px auto 5px;
+}
+.form-group input, .form-group textarea {
+	text-indent: 10px;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+	font-size: 2.5rem;
+}
+h2, .h2 {
+font-size: 2rem;
+}
+
+h3, .h3 {
+font-size: 1.75rem;
+}
+
+h4, .h4 {
+font-size: 1.5rem;
+}
+
+h5, .h5 {
+font-size: 1.25rem;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+  }
+  small {
+	font-size: 80%;
+  }
+.form-group textarea {
+	min-height: 50px;
+	max-height: 200px;
+	resize: vertical;
+}
+
+a {
+	color: inherit;
+}
+a:hover, a:visited, a:active, a:focus {
+	color: #000;
+}
