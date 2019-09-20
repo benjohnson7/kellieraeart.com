@@ -19,9 +19,6 @@
 - title: Contact
   url: /contact/
   class:
-- title: View Cart
-  url: /view-cart
-  class:
 - title: More...
   url: /more/
   class: show-on-mobile
