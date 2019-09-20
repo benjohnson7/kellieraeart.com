@@ -19,6 +19,6 @@
 - title: Contact
   url: /contact/
   class:
-- title: More...
-  url: /more/
-  class: show-on-mobile
+# - title: More...
+#   url: /more/
+#   class: show-on-mobile
