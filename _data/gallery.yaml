@@ -1,7 +1,7 @@
 #BIRDS
 - title: Wood Thrush
-  size: 
-  price:
+  size: 8" x 8"
+  price: 85
   img: /images/birds/K Theiss - Wood Thrush Nest 8x8 - Web.jpg
   thumbnail: /images/birds/th/thumb_200_K Theiss - Wood Thrush Nest 8x8 - Web.jpg
   paypal: XU8ZKRZQGTFQQ
@@ -339,6 +339,16 @@
     - bird
   type:
     - print
+- title: Minnesota Bird Nests Poster
+  size: 18" x 24"
+  price: 120
+  img: /images/birds/
+  thumbnail: /images/birds/th/
+  paypal: YEEYQN57JPYXN
+  class: 
+    - birds
+  type:
+    - poster
 #END BIRDS
 #INSECTS
 - title: Northern Leopard Frog
@@ -955,23 +965,23 @@
 #POSTCARDS
 - title: Aquatic Collection Postcard Booklet
   size: 5" x 7"
-  price: 20
+  price: 15
   img: /images/cards-postcards/aquatic.jpeg
   thumbnail: /images/cards-postcards/aquatic.jpeg
   paypal: J3NTVRK4UFBPC
   type:
     - postcard
-- title: Aquatic Collection Postcard Booklet
+- title: Bird Collection Postcard Booklet
   size: 5" x 7"
-  price: 20
+  price: 15
   img: /images/cards-postcards/birds.jpeg
   thumbnail: /images/cards-postcards/birds.jpeg
   paypal: VQ2HZGNXD44PY
   type:
     - postcard
-- title: Aquatic Collection Postcard Booklet
+- title: Nest Collection Postcard Booklet
   size: 5" x 7"
-  price: 20
+  price: 15
   img: /images/cards-postcards/nest.jpeg
   thumbnail: /images/cards-postcards/nest.jpeg
   paypal: 6QVDPB57TTX9W
@@ -1033,6 +1043,54 @@
   img: /images/cards-postcards/Barn Owl.jpeg
   thumbnail: /images/cards-postcards/Barn Owl.jpeg
   paypal: WM7HD8WF92786
+  type:
+    - card
+- title: Monarch Butterfly - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: AZZQGYWHQK4LW
+  type:
+    - card
+- title: Painted Turtle - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: N6T27QP6QFPEE
+  type:
+    - card
+- title: Bluegill - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: QSRSUGHD56NPG
+  type:
+    - card
+- title: Great White Heron with Eggs - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: EP9LVG9KFPF9S
+  type:
+    - card
+- title: Northern Leopard Frog - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: UJME4FE824U8Y
+  type:
+    - card
+- title: Wood-Thrush Nest - 5 Pack
+  size: 5" x 7"
+  price: 20
+  img: /images/cards-postcards/
+  thumbnail: /images/cards-postcards/
+  paypal: BEUY8HVAGZ5Y2
   type:
     - card
 
