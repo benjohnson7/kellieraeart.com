@@ -1010,8 +1010,8 @@
   thumbnail: /images/cards-postcards/Monarch Butterfly.jpeg
   paypal: AZZQGYWHQK4LW
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 - title: Painted Turtle - 5 Pack
   size: 5" x 7"
   price: 20
@@ -1019,8 +1019,8 @@
   thumbnail: /images/cards-postcards/Painted Turtle.jpeg
   paypal: N6T27QP6QFPEE
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 - title: Bluegill - 5 Pack
   size: 5" x 7"
   price: 20
@@ -1028,8 +1028,8 @@
   thumbnail: /images/theiss-placeholder.jpg
   paypal: QSRSUGHD56NPG
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 - title: Great White Heron with Eggs - 5 Pack
   size: 5" x 7"
   price: 20
@@ -1037,8 +1037,8 @@
   thumbnail: /images/theiss-placeholder.jpg
   paypal: EP9LVG9KFPF9S
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 - title: Northern Leopard Frog - 5 Pack
   size: 5" x 7"
   price: 20
@@ -1046,8 +1046,8 @@
   thumbnail: /images/cards-postcards/Northern Leopard Frog.jpeg
   paypal: UJME4FE824U8Y
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 - title: Wood-Thrush Nest - 5 Pack
   size: 5" x 7"
   price: 20
@@ -1055,6 +1055,6 @@
   thumbnail: /images/theiss-placeholder.jpg
   paypal: BEUY8HVAGZ5Y2
   type:
-    - card
-    - gift
+    - card 
+    - gift 
 #END CARDS

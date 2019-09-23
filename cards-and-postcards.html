@@ -26,7 +26,7 @@ tags:
 			{%- endif -%}
 		{%- endfor -%}
 		{%- if valid -%}
-		<div class="gallery-grid-item {{ p.type }}">
+		<div class="gallery-grid-item {% for type in p.type %}{{ type }} {% endfor %}">
 			<div class="gallery-image-area">
 				<img src="{{ p.thumbnail }}" class="grid-thumbnail-image" alt="" />
 				<div class="gallery-overly">

@@ -101,7 +101,7 @@ permalink: /artist-story/
 		{% for image in site.static_files %}
 			{% if image.path contains 'images/about' %}
 				<!--<img src="{{ site.baseurl }}{{ image.path }}" alt="Kellie Rae Art" style="height: 113px; border: 1px solid white;" />-->
-				<div class="gallery-grid-item {{ p.class }}">
+				<div class="gallery-grid-item  {% for class in p.class %}{{ class }} {% endfor %}">
 					<div class="gallery-image-area">
 						<img src="{{ site.baseurl }}{{ image.path }}" class="grid-thumbnail-image" alt="" />
 						<div class="gallery-overly">

@@ -383,6 +383,12 @@ span.avoidwrap { display:inline-block; }
 .body-bg {background-color: #8a9a5b;}
 .black-bg {background-color: #131313;}
 .white-bg {background-color: #fff; padding: 20px;}
+.white-bg-home {background-color: #fff;}
+.wood-bg {
+	background-image: url('/images/wood-bg.jpg');
+	padding: 10px;
+	margin-bottom: 20px;
+}
 
 .left {text-align: left;}
 .right {text-align: right;}
@@ -492,4 +498,32 @@ a:hover, a:visited, a:active, a:focus {
 
 #fadeCarousel {
 	margin-bottom: 20px;
+}
+.heron {
+	display: block;
+	margin: 15px auto;
+	max-width: 100%;
+
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
 }
