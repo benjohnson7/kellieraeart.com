@@ -488,3 +488,8 @@ a {
 a:hover, a:visited, a:active, a:focus {
 	color: #000;
 }
+
+
+#fadeCarousel {
+	margin-bottom: 20px;
+}

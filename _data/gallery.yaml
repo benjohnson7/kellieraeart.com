@@ -361,7 +361,6 @@
     - iaap
   type:
     - print
-
 - title: Dragonfly at Dusk
   size: 5" x 5"
   price: 80
@@ -372,7 +371,6 @@
     - iaap
   type:
     - print
-
 - title: Monarch in August
   size: 12" x 12"
   price: 150
@@ -383,7 +381,6 @@
     - iaap
   type:
     - print
-
 - title: Yellow Lily
   size: 11.25" x 24"
   price: 200
@@ -394,7 +391,6 @@
     - iaap
   type:
     - print
-
 - title: Wild Iris
   size: 12" x 25"
   price: 175
@@ -405,7 +401,6 @@
     - iaap
   type:
     - print
-
 - title: Wild Cala
   size: 24" x 17.5"
   price: 175
@@ -416,7 +411,6 @@
     - iaap
   type:
     - print
-
 - title: Grasshopper
   size: 4" x 3"
   price: 50
@@ -427,7 +421,6 @@
     - iaap
   type:
     - print
-
 - title: Giant Waterbug II
   size: 3.33" x 5"
   price: 50
@@ -438,7 +431,6 @@
     - iaap
   type:
     - print
-
 - title: Giant Waterbug I
   size: 4" x 5"
   price: 50
@@ -449,7 +441,6 @@
     - iaap
   type:
     - print
-
 - title: Turtle Shell
   size: 5" x 7"
   price: 80
@@ -460,7 +451,6 @@
     - iaap
   type:
     - print
-
 - title: Crayfish
   size: 5.75" x 8"
   price: 100
@@ -471,7 +461,6 @@
     - iaap
   type:
     - print
-
 - title: Wood Frog
   size: 5" x 7"
   price: 50
@@ -482,7 +471,6 @@
     - iaap
   type:
     - print
-
 - title: Northern Leopard Frog
   size: 5.75" x 8"
   price: 50
@@ -493,7 +481,6 @@
     - iaap
   type:
     - print
-
 - title: Monarch
   size: 11.25" x 6"
   price: 80
@@ -504,7 +491,6 @@
     - iaap
   type:
     - print
-
 - title: Two Monarchs
   size: 11.25" x 15"
   price: 100
@@ -515,7 +501,6 @@
     - iaap
   type:
     - print
-
 - title: Dragonflies and Teasel
   size: 14" x 14"
   price: 125
@@ -526,7 +511,6 @@
     - iaap
   type:
     - print
-
 - title: Dragonfly and Teasel
   size: 14" x 14"
   price: 175
@@ -537,7 +521,6 @@
     - iaap
   type:
     - print
-
 - title: Dragonfly
   size: 6" x 4"
   price: 50
@@ -708,7 +691,6 @@
     - iaap
   type:
     - print
-
 #END INSECTS
 #FISH
 - title: Below the Surface
@@ -989,30 +971,6 @@
     - postcard
 #END POSTCARDS
 #CARDS
-- title: Monarch Butterfly
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Monarch Butterfly.jpeg
-  thumbnail: /images/cards-postcards/Monarch Butterfly.jpeg
-  paypal: 9RFW2FH4DD32A
-  type:
-    - card
-- title: Northern Leopard Frog
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Northern Leopard Frog.jpeg
-  thumbnail: /images/cards-postcards/Northern Leopard Frog.jpeg
-  paypal: 668VWEXBJ5QVA
-  type:
-    - card
-- title: Painted Turtle
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Painted Turtle.jpeg
-  thumbnail: /images/cards-postcards/Painted Turtle.jpeg
-  paypal: S8PMTMJDQUYLC
-  type:
-    - card
 - title: Evening Grosbeak - Male
   size: 5" x 7"
   price: 5
@@ -1048,8 +1006,8 @@
 - title: Monarch Butterfly - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/Monarch Butterfly.jpeg
+  thumbnail: /images/cards-postcards/Monarch Butterfly.jpeg
   paypal: AZZQGYWHQK4LW
   type:
     - card
@@ -1057,8 +1015,8 @@
 - title: Painted Turtle - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/Painted Turtle.jpeg
+  thumbnail: /images/cards-postcards/Painted Turtle.jpeg
   paypal: N6T27QP6QFPEE
   type:
     - card
@@ -1084,8 +1042,8 @@
 - title: Northern Leopard Frog - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/Northern Leopard Frog.jpeg
+  thumbnail: /images/cards-postcards/Northern Leopard Frog.jpeg
   paypal: UJME4FE824U8Y
   type:
     - card
@@ -1099,5 +1057,4 @@
   type:
     - card
     - gift
-
 #END CARDS
