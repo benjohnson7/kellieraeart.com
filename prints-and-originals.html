@@ -34,7 +34,7 @@ tags:
 				<img src="{{ p.thumbnail }}" class="grid-thumbnail-image" alt="" />
 				<div class="gallery-overly">
 					<div class="image-details">
-						<span class="image-title">{{ p.title }}<br />{{ p.size }}<br />{% if p.price %}${{ p.price }}{% endif %}{% if p.original %}<br />Original Available!{% endif %}</span>
+						<span class="image-title">{{ p.title }}<br />{{ p.size }}<br />{% if p.price %}${{ p.price }}{% endif %}{% if p.original == false %}<br />Original Sold!{% endif %}</span>
 					</div>
 					<a class="grid-image-zoom hide-on-mobile" href="{{ p.img }}" data-fancybox-group="grid-gallery">
 						<div class="gallery-zoom-icon"></div>
