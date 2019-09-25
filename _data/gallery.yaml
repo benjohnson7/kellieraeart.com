@@ -1065,38 +1065,6 @@
     - postcard
 #END POSTCARDS
 #CARDS
-- title: Evening Grosbeak - Male
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Evening Grosbeak - Male.jpeg
-  thumbnail: /images/cards-postcards/Evening Grosbeak - Male.jpeg
-  paypal: EJF6F5L49CF8S
-  type:
-    - card
-- title: Evening Grosbeak - Female
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Evening Grosbeak - Female.jpeg
-  thumbnail: /images/cards-postcards/Evening Grosbeak - Female.jpeg
-  paypal: 4E767TET4SYS8
-  type:
-    - card
-- title: Song Sparrow with Heart
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Song Sparrow with Heart.jpeg
-  thumbnail: /images/cards-postcards/Song Sparrow with Heart.jpeg
-  paypal: 9NR737GAE6BA8
-  type:
-    - card
-- title: Barn Owl
-  size: 5" x 7"
-  price: 5
-  img: /images/cards-postcards/Barn Owl.jpeg
-  thumbnail: /images/cards-postcards/Barn Owl.jpeg
-  paypal: WM7HD8WF92786
-  type:
-    - card
 - title: Monarch Butterfly - 5 Pack
   size: 5" x 7"
   price: 20

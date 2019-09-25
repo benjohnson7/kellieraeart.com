@@ -1,0 +1,12 @@
+Site uses Jekyll to generate the pages - https://jekyllrb.com/
+Install Chocolatey then Jekyll
+
+To work on the site
+	Command prompt - "jekyll serve"
+	http://localhost:4000
+
+To deploy changes
+	If already "serving" with jekyll serve, you can push git changes and they will auto deploy
+	Otherwise, use "jekyll build" to compile. Then push changes
+
+https://jekyllrb.com/docs/usage/
