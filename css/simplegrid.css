@@ -347,6 +347,7 @@ table {
 	.hide-on-desktop {
 		display: block !important;
 	}
+	.mobile-block {display: block !important;}
     .mobile-center {text-align: center;}
     .mobile-padd-20 {padding: 20px 5px;}
 }
@@ -503,7 +504,7 @@ a:hover, a:visited, a:active, a:focus {
 	display: block;
 	margin: 15px auto;
 	max-width: 100%;
-
+	width: 100%;
 }
 
 .carousel-inner .carousel-item.active,

@@ -1,14 +1,16 @@
 ---
 layout: default
 title: Artist Story
-description: "Minnesota artist Kellie Rae Theiss has dedicated her life to observing and painting nature. Most of the year she can be found at her Turtle-hill Studio, near Prairie Lake in the north woods of Minnesota. Her reverent and intimate paintings capture the spirit, beauty, and wonder of nature’s blessings."
+description: "Minnesota artist Kellie Rae Theiss has dedicated her life to observing and painting nature. Most of the
+year she can be found at her Turtle-hill Studio, near Prairie Lake in the north woods of Minnesota. Her reverent and
+intimate paintings capture the spirit, beauty, and wonder of nature’s blessings."
 permalink: /artist-story/
 ---
 <h1>{{page.title}}</h1>
 <h2>About Kellie Rae Theiss</h2>
-<p><a href="/images/about/kellie2.jpg" title="Kellie Rae Theiss - Minnesota Artist" rel="shadowbox[About]"><img
+<p><img
 			src="/images/about/kellie2.jpg" alt="Kellie Rae - Minnesota Artist"
-			style="float: left; width: 200px; margin:35px 15px 60px 10px; border:2px solid white;" /></a>My formal art
+			style="padding: 10px;" class="col-1-4 mobile-col-1-1"/>My formal art
 	education began at the <a href="http://www.unl.edu/finearts/" title="University Of Nebraska Fine Arts Program"
 		target="_blank">University of Nebraska</a>. This took me to observe art in over 27 countries of Europe, then on
 	to attend the <a href="http://www.accademiariaci.info/" title="Accedemia de Riaci in Florence, Italy"
@@ -18,9 +20,11 @@ permalink: /artist-story/
 	artists here and abroad. Libraries of information have come from the extraordinary artists and students that I have
 	been privileged to work with and for over the past 25 years here in <strong>Minnesota</strong>.</p>
 <p><a href="/images/about/izzie3.jpg" title="Izzie - My Agent" rel="shadowbox[About]"><img
-			style="float:right; margin:2px 0 6px 6px; width: 150px; border: 2px solid #fff;" src="/images/about/izzie3.jpg"
-			alt="Kellie Rae Theiss - Minnesota Artist" /></a> Above anything else I am here as an artist for
-	<strong>nature</strong>. For 31 years my <a href="/prints-and-originals/" title="Kellie Rae Nature Artwork">paintings</a>
+			style="float:right; margin:2px 0 6px 6px; width: 150px; border: 2px solid #fff;"
+			src="/images/about/izzie3.jpg" alt="Kellie Rae Theiss - Minnesota Artist" /></a> Above anything else I am
+	here as an artist for
+	<strong>nature</strong>. For 31 years my <a href="/prints-and-originals/"
+		title="Kellie Rae Nature Artwork">paintings</a>
 	have been about expressing a reverence for the natural object or creature. Rendering with academic precision, I
 	attempt to relate to the viewer with a touch of surrealism how beautiful, fragile and brief are the creatures and
 	their physical world. I also intend parallels to be pondered regarding our existence with theirs. Is there is a
@@ -95,45 +99,45 @@ permalink: /artist-story/
 	<center>Click on any of the images to open the gallery</center>
 </h3>
 <p style="text-align: center;">
-	
 	<div class="grid-gallery">
 		<div class="gallery-grid-sizer"></div>
 		{% for image in site.static_files %}
-			{% if image.path contains 'images/about' %}
-				<!--<img src="{{ site.baseurl }}{{ image.path }}" alt="Kellie Rae Art" style="height: 113px; border: 1px solid white;" />-->
-				<div class="gallery-grid-item  {% for class in p.class %}{{ class }} {% endfor %}">
-					<div class="gallery-image-area">
-						<img src="{{ site.baseurl }}{{ image.path }}" class="grid-thumbnail-image" alt="" />
-						<div class="gallery-overly">
-							<a class="grid-image-zoom" href="{{ site.baseurl }}{{ image.path }}" data-fancybox-group="grid-gallery">
-								<div class="gallery-zoom-icon"></div>
-							</a>
-						</div>
-					</div>
+		{% if image.path contains 'images/about' %}
+		<!--<img src="{{ site.baseurl }}{{ image.path }}" alt="Kellie Rae Art" style="height: 113px; border: 1px solid white;" />-->
+		<div class="gallery-grid-item  {% for class in p.class %}{{ class }} {% endfor %}">
+			<div class="gallery-image-area">
+				<img src="{{ site.baseurl }}{{ image.path }}" class="grid-thumbnail-image" alt="" />
+				<div class="gallery-overly">
+					<a class="grid-image-zoom" href="{{ site.baseurl }}{{ image.path }}"
+						data-fancybox-group="grid-gallery">
+						<div class="gallery-zoom-icon"></div>
+					</a>
 				</div>
-			{% endif %}
+			</div>
+		</div>
+		{% endif %}
 		{% endfor %}
 	</div>
 </p>
 <style>
-.gallery-image-area .gallery-zoom-icon {
-	border-radius: 5px;
-	display: block;
-	content: '';
-	position: absolute;
-	background: url(..//img/icon/zoom.png) no-repeat center center;
-	top: auto;
-	left: auto;
-	height: 100%;
-	width: 100%;
-	border: 4px double #fff;
-	opacity: 0;
-	-webkit-transform: translate(0, 0) rotate(0deg);
-	transform: translate(0, 0) rotate(0deg);
-	-webkit-transition: all 0.6s;
-	transition: all 0.6s;
-	z-index: 5;
-}
+	.gallery-image-area .gallery-zoom-icon {
+		border-radius: 5px;
+		display: block;
+		content: '';
+		position: absolute;
+		background: url(..//img/icon/zoom.png) no-repeat center center;
+		top: auto;
+		left: auto;
+		height: 100%;
+		width: 100%;
+		border: 4px double #fff;
+		opacity: 0;
+		-webkit-transform: translate(0, 0) rotate(0deg);
+		transform: translate(0, 0) rotate(0deg);
+		-webkit-transition: all 0.6s;
+		transition: all 0.6s;
+		z-index: 5;
+	}
 </style>
 <!-- jQuery -->
 <script src="/assets/externals/jquery.min.js"></script>

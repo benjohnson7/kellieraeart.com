@@ -947,7 +947,7 @@
 #POSTCARDS
 - title: Aquatic Collection Postcard Booklet
   size: 5" x 7"
-  price: 15
+  price: 20
   img: /images/cards-postcards/aquatic.jpeg
   thumbnail: /images/cards-postcards/aquatic.jpeg
   paypal: J3NTVRK4UFBPC
@@ -955,7 +955,7 @@
     - postcard
 - title: Bird Collection Postcard Booklet
   size: 5" x 7"
-  price: 15
+  price: 20
   img: /images/cards-postcards/birds.jpeg
   thumbnail: /images/cards-postcards/birds.jpeg
   paypal: VQ2HZGNXD44PY
@@ -963,7 +963,7 @@
     - postcard
 - title: Nest Collection Postcard Booklet
   size: 5" x 7"
-  price: 15
+  price: 20
   img: /images/cards-postcards/nest.jpeg
   thumbnail: /images/cards-postcards/nest.jpeg
   paypal: 6QVDPB57TTX9W
