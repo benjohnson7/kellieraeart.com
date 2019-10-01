@@ -34,7 +34,7 @@ tags:
 					<div class="image-details">
 						<span class="image-title">{{ p.title }}<br />{{ p.size }}<br />{% if p.price %}${{ p.price }}{% endif %}</span>
 					</div>
-					<a class="grid-image-zoom hide-on-mobile" href="{{ p.img }}" data-fancybox-group="grid-gallery">
+					<a class="grid-image-zoom" href="{{ p.img }}" data-fancybox-group="grid-gallery">
 						<div class="gallery-zoom-icon"></div>
 					</a>
 					{%- if p.price -%}
