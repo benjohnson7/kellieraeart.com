@@ -197,28 +197,28 @@
 #    - bird
 #  type:
 #    - print
-- title: Least Bittern
-  size: 16" x 12"
-  price: 150
-  img: /images/birds/bird-painting01.jpg
-  thumbnail: /images/birds/th/bird-painting01.jpg
-  paypal: UGE6D2C5D4HPL
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Chickadee in the Green
-  size: 8" x 8"
-  price: 100
-  img: /images/birds/bird-painting02.jpg
-  thumbnail: /images/birds/th/bird-painting02.jpg
-  paypal: F9RRZTL7M5E5G
-  original: false
-  class:
-    - bird
-  type:
-    - print
+#- title: Least Bittern
+#  size: 16" x 12"
+#  price: 150
+#  img: /images/birds/bird-painting01.jpg
+#  thumbnail: /images/birds/th/bird-painting01.jpg
+#  paypal: UGE6D2C5D4HPL
+#  original: true
+#  class:
+#    - bird
+#  type:
+#    - print
+#- title: Chickadee in the Green
+#  size: 8" x 8"
+#  price: 100
+#  img: /images/birds/bird-painting02.jpg
+#  thumbnail: /images/birds/th/bird-painting02.jpg
+#  paypal: F9RRZTL7M5E5G
+#  original: false
+#  class:
+#    - bird
+#  type:
+#    - print
 #- title: Evening Grossbeak-Male
   #size: 5" x 7"
   #price: 80
