@@ -186,17 +186,17 @@
     - bird
   type:
     - print
-- title: Great White Egret
-  size: 24" x 46"
-  price: 350
-  img: /images/birds/BirdOnBranch.jpg
-  thumbnail: /images/birds/th/BirdOnBranch.jpg
-  paypal: PGBWXYG5A7D22
-  original: true
-  class:
-    - bird
-  type:
-    - print
+#- title: Great White Egret
+#  size: 24" x 46"
+#  price: 350
+#  img: /images/birds/BirdOnBranch.jpg
+#  thumbnail: /images/birds/th/BirdOnBranch.jpg
+#  paypal: PGBWXYG5A7D22
+#  original: true
+#  class:
+#    - bird
+#  type:
+#    - print
 - title: Least Bittern
   size: 16" x 12"
   price: 150
