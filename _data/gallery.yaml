@@ -219,17 +219,17 @@
     - bird
   type:
     - print
-- title: Evening Grossbeak-Male
-  size: 5" x 7"
-  price: 80
-  img: /images/birds/bird-painting03.jpg
-  thumbnail: /images/birds/th/bird-painting03.jpg
-  paypal: TJJV6EJWCFRJQ
-  original: true
-  class:
-    - bird
-  type:
-    - print
+#- title: Evening Grossbeak-Male
+  #size: 5" x 7"
+  #price: 80
+  #img: /images/birds/bird-painting03.jpg
+  #thumbnail: /images/birds/th/bird-painting03.jpg
+  #paypal: TJJV6EJWCFRJQ
+  #original: true
+  #class:
+  #  - bird
+  #type:
+  #  - print
 - title: Song Sparrow with Heart
   size: 5" x 7"
   price: 80
