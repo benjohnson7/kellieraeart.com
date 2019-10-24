@@ -10,17 +10,6 @@
     - bird
   type:
     - print
-- title: Chickadee in the Pine
-  size: 
-  price: 70
-  img: /images/birds/Chickadee-in-pine.jpg
-  thumbnail: /images/birds/th/Chickadee-in-pine.jpg
-  paypal: Q6QEPM6UFDSL8
-  original: true
-  class:
-    - bird
-  type:
-    - print
 - title: Magpie Nest
   size: 12" x 12"
   price: 125
@@ -54,6 +43,39 @@
     - bird
   type:
     - print
+- title: Vireo on Blue
+  size: 8" x 8"
+  price: 80
+  img: /images/birds/Vireo on Blue Nest 8x8.jpg
+  thumbnail: /images/birds/th/Vireo on Blue Nest 8x8.jpg
+  paypal: NPE6U2GFCYY6Q
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Loon Eggs
+  size: 20" x 16"
+  price: 150
+  img: /images/birds/Loon Nest.jpg
+  thumbnail: /images/birds/th/Loon Nest.jpg
+  paypal: PELWZETC3G6SG
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Chickadee in the Pine
+  size: 
+  price: 70
+  img: /images/birds/Chickadee-in-pine.jpg
+  thumbnail: /images/birds/th/Chickadee-in-pine.jpg
+  paypal: Q6QEPM6UFDSL8
+  original: true
+  class:
+    - bird
+  type:
+    - print
 - title: Raven
   size: 24" x 36"
   price: 200
@@ -76,34 +98,12 @@
     - bird
   type:
     - print
-- title: Vireo on Blue
-  size: 8" x 8"
-  price: 80
-  img: /images/birds/Vireo on Blue Nest 8x8.jpg
-  thumbnail: /images/birds/th/Vireo on Blue Nest 8x8.jpg
-  paypal: NPE6U2GFCYY6Q
-  original: true
-  class:
-    - bird
-  type:
-    - print
 - title: Yellow Bandit
   size: 6" x 6"
   price: 65
   img: /images/birds/Yellow Bandit Cropped.jpg
   thumbnail: /images/birds/th/Yellow Bandit Cropped.jpg
   paypal: 8WQUSSN6HWWWA
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Loon Eggs
-  size: 20" x 16"
-  price: 150
-  img: /images/birds/Loon Nest.jpg
-  thumbnail: /images/birds/th/Loon Nest.jpg
-  paypal: PELWZETC3G6SG
   original: true
   class:
     - bird
@@ -153,6 +153,17 @@
     - bird
   type:
     - print
+- title: Evening Grossbeak-Female
+  size: 8" x 8"
+  price: 150
+  img: /images/birds/bird-painting-nest.jpg
+  thumbnail: /images/birds/th/bird-painting-nest.jpg
+  paypal: XJFR3GBJ3UGCC
+  original: false
+  class:
+    - bird
+  type:
+    - print
 - title: Great Horned Owl
   size: 6" x 6"
   price: 80
@@ -171,6 +182,17 @@
   thumbnail: /images/birds/th/02 Song Sparrow Nest III.jpg
   paypal: UR83LQPVVAB5W
   original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Barn Sparrow
+  size: 10" x 10"
+  price: 150
+  img: /images/birds/bird-painting-babys.jpg
+  thumbnail: /images/birds/th/bird-painting-babys.jpg
+  paypal: 3T2U6PYXA53TJ
+  original: false
   class:
     - bird
   type:
@@ -252,17 +274,7 @@
     - bird
   type:
     - print
-- title: Barn Sparrow
-  size: 10" x 10"
-  price: 150
-  img: /images/birds/bird-painting-babys.jpg
-  thumbnail: /images/birds/th/bird-painting-babys.jpg
-  paypal: 3T2U6PYXA53TJ
-  original: false
-  class:
-    - bird
-  type:
-    - print
+
 - title: Blue Jay
   size: 9" x 10"
   price: 150
@@ -296,45 +308,13 @@
     - bird
   type:
     - print
-- title: Evening Grossbeak-Female
-  size: 8" x 8"
-  price: 150
-  img: /images/birds/bird-painting-nest.jpg
-  thumbnail: /images/birds/th/bird-painting-nest.jpg
-  paypal: XJFR3GBJ3UGCC
-  original: false
-  class:
-    - bird
-  type:
-    - print
+
 - title: Piliated Woodpecker
   size: 80" x 30"
   price: 950
   img: /images/birds/bird-painting-woodpecker.jpg
   thumbnail: /images/birds/th/bird-painting-woodpecker.jpg
   paypal: J7V9KSSEB2SD2
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Crows
-  size: 48" x 24"
-  price: 350
-  img: /images/birds/bird-painting-ravens.jpg
-  thumbnail: /images/birds/th/bird-painting-ravens.jpg
-  paypal: 8MB2TE9RNPAWA
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Barn Owl
-  size: 24" x 18"
-  price: 250
-  img: /images/birds/bird-painting-owl.jpg
-  thumbnail: /images/birds/th/bird-painting-owl.jpg
-  paypal: X5FAXDFRE4P6Y
   original: true
   class:
     - bird
@@ -362,6 +342,30 @@
     - bird
   type:
     - print
+- title: Crows
+  size: 48" x 24"
+  price: 350
+  img: /images/birds/bird-painting-ravens.jpg
+  thumbnail: /images/birds/th/bird-painting-ravens.jpg
+  paypal: 8MB2TE9RNPAWA
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Barn Owl
+  size: 24" x 18"
+  price: 250
+  img: /images/birds/bird-painting-owl.jpg
+  thumbnail: /images/birds/th/bird-painting-owl.jpg
+  paypal: X5FAXDFRE4P6Y
+  original: true
+  class:
+    - bird
+  type:
+    - print
+
+
 - title: Bald Eagle
   size: 12" x 9"
   price: 150
@@ -562,17 +566,17 @@
     - iaap
   type:
     - print
-- title: Dragonfly and Teasel
-  size: 14" x 14"
-  price: 175
-  img: /images/insects/dragonfly-painting02.jpg
-  thumbnail: /images/insects/th/dragonfly-painting02.jpg
-  paypal: V4ZA8P45M8SFU
-  original: true
-  class:
-    - iaap
-  type:
-    - print
+#- title: Dragonfly and Teasel
+#  size: 14" x 14"
+#  price: 175
+#  img: /images/insects/dragonfly-painting02.jpg
+#  thumbnail: /images/insects/th/dragonfly-painting02.jpg
+#  paypal: V4ZA8P45M8SFU
+#  original: true
+#  class:
+#    - iaap
+#  type:
+#    - print
 - title: Dragonfly
   size: 6" x 4"
   price: 50
@@ -595,39 +599,6 @@
     - iaap
   type:
     - print
-- title: Dragonfly on Rosehips
-  size: 12" x 12"
-  price: 
-  img: /images/insects/dragonfly-painting03.jpg
-  thumbnail: /images/insects/th/dragonfly-painting03.jpg
-  paypal: 
-  original: true
-  class:
-    - iaap
-  type:
-    - print
-- title: Locusts in Trees
-  size: 10" x 8"
-  price: 
-  img: /images/insects/insect-painting.jpg
-  thumbnail: /images/insects/th/insect-painting.jpg
-  paypal: 
-  original: true
-  class:
-    - iaap
-  type:
-    - print
-- title: Frog Up for Air
-  size: 5" x 7"
-  price: 
-  img: /images/fish/underwater-painting-frog.jpg
-  thumbnail: /images/fish/th/underwater-painting-frog.jpg
-  paypal: 
-  original: true
-  class:
-    - iaap
-  type:
-    - print
 - title: Water Lily
   size: 24" x 28"
   price: 350
@@ -639,45 +610,12 @@
     - iaap
   type:
     - print
-- title: Crayfish Sideview
-  size: 10" x 4"
-  price: 
-  img: /images/insects/crawfish-painting02.jpg
-  thumbnail: /images/insects/th/crawfish-painting02.jpg
-  paypal: 
-  original: true
-  class:
-    - iaap
-  type:
-    - print
 - title: Frog in the Dark
   size: 22" x 10"
   price: 125
   img: /images/insects/frog-painting01.jpg
   thumbnail: /images/insects/th/frog-painting01.jpg
   paypal: VLUA4PYW6Z7YW
-  original: true
-  class:
-    - iaap
-  type:
-    - print
-- title: Butterfly Unidentified
-  size: 7" x 5"
-  price: 
-  img: /images/insects/butterfly-painting03.jpg
-  thumbnail: /images/insects/th/butterfly-painting03.jpg
-  paypal: 
-  original: true
-  class:
-    - iaap
-  type:
-    - print
-- title: Turtle Eggs
-  size: 12" x 8"
-  price: 
-  img: /images/insects/turtle-painting-eggs.jpg
-  thumbnail: /images/insects/th/turtle-painting-eggs.jpg
-  paypal: 
   original: true
   class:
     - iaap
@@ -700,17 +638,6 @@
   img: /images/insects/turtle-painting02.jpg
   thumbnail: /images/insects/th/turtle-painting02.jpg
   paypal: DWPK4E69KJW7U
-  original: true
-  class:
-    - iaap
-  type:
-    - print
-- title: Baby Paint Surfacing
-  size: 5" x 9"
-  price: 
-  img: /images/insects/turtle-painting03.jpg
-  thumbnail: /images/insects/th/turtle-painting03.jpg
-  paypal: 
   original: true
   class:
     - iaap
@@ -783,17 +710,17 @@
     - fish
   type:
     - print
-- title: Minnows II
-  size: 8" x 6"
-  price: 100
-  img: /images/fish/10 Minnows.jpg
-  thumbnail: /images/fish/th/10 Minnows.jpg
-  paypal: K4QXYL3AT6T5Q
-  original: false
-  class: 
-    - fish
-  type:
-    - print
+#- title: Minnows II
+#  size: 8" x 6"
+#  price: 100
+#  img: /images/fish/10 Minnows.jpg
+#  thumbnail: /images/fish/th/10 Minnows.jpg
+#  paypal: K4QXYL3AT6T5Q
+#  original: false
+#  class: 
+#   - fish
+#  type:
+#    - print
 - title: Two Crayfish
   size: 7" x 5"
   price: 100
@@ -849,17 +776,6 @@
     - fish
   type:
     - print
-- title: Crappie I
-  size: 6.5" x 4.5"
-  price: 50
-  img: /images/fish/underwater-crappie01.jpg
-  thumbnail: /images/fish/th/underwater-crappie01.jpg
-  paypal: W4ABGN885EFF4
-  original: true
-  class: 
-    - fish
-  type:
-    - print
 - title: Northern Pike
   size: 40" x 18"
   price: 225
@@ -878,17 +794,6 @@
   thumbnail: /images/fish/th/underwater-painting-fish03.jpg
   paypal: WNBLB7DZ2R7WG
   original: false
-  class: 
-    - fish
-  type:
-    - print
-- title: Crappie II
-  size: 6.3" x 4"
-  price: 50
-  img: /images/fish/underwater-painting-fish04.jpg
-  thumbnail: /images/fish/th/underwater-painting-fish04.jpg
-  paypal: F22RG69HT4RSY
-  original: true
   class: 
     - fish
   type:
@@ -981,33 +886,11 @@
     - fish
   type:
     - print
-- title: Northern Pike Frontal
-  size: 8" x 8"
-  price: 
-  img: /images/fish/underwater-painting-fish11.jpg
-  thumbnail: /images/fish/th/underwater-painting-fish11.jpg
-  paypal: 
-  original: true
-  class: 
-    - fish
-  type:
-    - print
 - title: Rock Bass II
   size: 8" x 7"
   price: 
   img: /images/fish/underwater-painting-fish12.jpg
   thumbnail: /images/fish/th/underwater-painting-fish12.jpg
-  paypal: 
-  original: true
-  class: 
-    - fish
-  type:
-    - print
-- title: Bass
-  size: 9" x 12"
-  price: 
-  img: /images/fish/underwater-painting-fish13.jpg
-  thumbnail: /images/fish/th/underwater-painting-fish13.jpg
   paypal: 
   original: true
   class: 
