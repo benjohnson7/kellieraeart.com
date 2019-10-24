@@ -77,13 +77,13 @@
     - bird
   type:
     - print
-- title: Pine Siskin Nest II
-  size: 6" x 6"
-  price: 80
-  img: /images/birds/Pine Siskin Nest.jpg
-  thumbnail: /images/birds/th/Pine Siskin Nest.jpg
-  paypal: BJBXGUK2MGWUE
-  original: true
+- title: Barn Sparrow
+  size: 10" x 10"
+  price: 150
+  img: /images/birds/bird-painting-babys.jpg
+  thumbnail: /images/birds/th/bird-painting-babys.jpg
+  paypal: 3T2U6PYXA53TJ
+  original: false
   class:
     - bird
   type:
@@ -189,17 +189,7 @@
   type:
     - print
 
-- title: Barn Sparrow
-  size: 10" x 10"
-  price: 150
-  img: /images/birds/bird-painting-babys.jpg
-  thumbnail: /images/birds/th/bird-painting-babys.jpg
-  paypal: 3T2U6PYXA53TJ
-  original: false
-  class:
-    - bird
-  type:
-    - print
+
 - title: Lone Tree Nebraska
   size: 24" x 32"
   price: 175
