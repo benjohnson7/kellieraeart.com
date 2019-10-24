@@ -32,17 +32,6 @@
     - bird
   type:
     - print
-- title: Pine Siskin Nest
-  size: 6" x 6"
-  price: 45
-  img: /images/birds/Pine Siskin Nest.jpg
-  thumbnail: /images/birds/th/Pine Siskin Nest.jpg
-  paypal: WFQKGUF2F6RQY
-  original: true
-  class:
-    - bird
-  type:
-    - print
 - title: Vireo on Blue
   size: 8" x 8"
   price: 80
@@ -157,6 +146,39 @@
 - title: Great White Heron
   size: 27.5" x 48"
   price: 360
+  img: /images/birds/Great White Heron 27.5X48.jpg
+  thumbnail: /images/birds/th/Great White Heron 27.5X48.jpg
+  paypal: 64CPJF7PL6TPE
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Great White Egret
+  size: 24" x 46"
+  price: 350
+  img: /images/birds/Great White Heron 27.5X48.jpg
+  thumbnail: /images/birds/th/Great White Heron 27.5X48.jpg
+  paypal: 64CPJF7PL6TPE
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Sandhill Crane - Alaska
+  size: 23.5" x 48"
+  price: 450
+  img: /images/birds/Great White Heron 27.5X48.jpg
+  thumbnail: /images/birds/th/Great White Heron 27.5X48.jpg
+  paypal: 64CPJF7PL6TPE
+  original: false
+  class:
+    - bird
+  type:
+    - print
+- title: Sandhill Crane - Platte River
+  size: 23.5" x 48"
+  price: 450
   img: /images/birds/Great White Heron 27.5X48.jpg
   thumbnail: /images/birds/th/Great White Heron 27.5X48.jpg
   paypal: 64CPJF7PL6TPE
