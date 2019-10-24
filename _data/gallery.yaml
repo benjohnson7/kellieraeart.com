@@ -176,20 +176,6 @@
     - bird
   type:
     - print
-
-- title: Great Horned Owl
-  size: 6" x 6"
-  price: 80
-  img: /images/birds/Great Horned Owl 30x80.jpg
-  thumbnail: /images/birds/th/Great Horned Owl 30x80.jpg
-  paypal: 82JJZ2H4PBJ5S
-  original: false
-  class:
-    - bird
-  type:
-    - print
-
-
 - title: Lone Tree Nebraska
   size: 24" x 32"
   price: 175
@@ -301,7 +287,17 @@
     - bird
   type:
     - print
-
+- title: Crows
+  size: 48" x 24"
+  price: 350
+  img: /images/birds/bird-painting-ravens.jpg
+  thumbnail: /images/birds/th/bird-painting-ravens.jpg
+  paypal: 8MB2TE9RNPAWA
+  original: true
+  class:
+    - bird
+  type:
+    - print
 - title: Piliated Woodpecker
   size: 80" x 30"
   price: 950
@@ -313,13 +309,13 @@
     - bird
   type:
     - print
-- title: Great Horned Owl in Flight
-  size: 80" x 30"
-  price: 950
-  img: /images/birds/bird-painting-owl2.jpg
-  thumbnail: /images/birds/th/bird-painting-owl2.jpg
-  paypal: 9EDJSPSBMGFHJ
-  original: true
+- title: Great Horned Owl
+  size: 6" x 6"
+  price: 80
+  img: /images/birds/Great Horned Owl 30x80.jpg
+  thumbnail: /images/birds/th/Great Horned Owl 30x80.jpg
+  paypal: 82JJZ2H4PBJ5S
+  original: false
   class:
     - bird
   type:
@@ -335,17 +331,7 @@
     - bird
   type:
     - print
-- title: Crows
-  size: 48" x 24"
-  price: 350
-  img: /images/birds/bird-painting-ravens.jpg
-  thumbnail: /images/birds/th/bird-painting-ravens.jpg
-  paypal: 8MB2TE9RNPAWA
-  original: true
-  class:
-    - bird
-  type:
-    - print
+
 - title: Barn Owl
   size: 24" x 18"
   price: 250
