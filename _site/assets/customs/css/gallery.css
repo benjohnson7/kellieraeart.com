@@ -157,7 +157,7 @@
 	display: block;
 	content: '';
 	position: absolute;
-	background:url('..//img/icon/zoom.png') no-repeat center center;
+	background:url('../img/icon/zoom.png') no-repeat center center;
 	top: 50%;
 	left: 50%;
 	height: 50px;
