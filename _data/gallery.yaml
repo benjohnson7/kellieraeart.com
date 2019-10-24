@@ -65,6 +65,51 @@
     - bird
   type:
     - print
+
+- title: Song Sparrow Nest
+  size: 8" x 8"
+  price: 80
+  img: /images/birds/Vireo Nest 8x8.jpg
+  thumbnail: /images/birds/th/Vireo Nest 8x8.jpg
+  paypal: 4CUAE7JERV6DA
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Pine Siskin Nest II
+  size: 6" x 6"
+  price: 80
+  img: /images/birds/Pine Siskin Nest.jpg
+  thumbnail: /images/birds/th/Pine Siskin Nest.jpg
+  paypal: BJBXGUK2MGWUE
+  original: true
+  class:
+    - bird
+  type:
+    - print
+- title: Evening Grossbeak-Female
+  size: 8" x 8"
+  price: 150
+  img: /images/birds/bird-painting-nest.jpg
+  thumbnail: /images/birds/th/bird-painting-nest.jpg
+  paypal: XJFR3GBJ3UGCC
+  original: false
+  class:
+    - bird
+  type:
+    - print
+- title: Song Sparrow Nest III
+  size: 8" x 8"
+  price: 80
+  img: /images/birds/Tanager Nest.jpg
+  thumbnail: /images/birds/th/Tanager Nest.jpg
+  paypal: UR83LQPVVAB5W
+  original: true
+  class:
+    - bird
+  type:
+    - print
 - title: Chickadee in the Pine
   size: 
   price: 70
@@ -131,39 +176,7 @@
     - bird
   type:
     - print
-- title: Song Sparrow Nest
-  size: 8" x 8"
-  price: 80
-  img: /images/birds/17 Vereo Nest cropped.jpg
-  thumbnail: /images/birds/th/17 Vereo Nest cropped.jpg
-  paypal: 4CUAE7JERV6DA
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Pine Siskin Nest II
-  size: 6" x 6"
-  price: 80
-  img: /images/birds/04 Pine Siskin Nest II.jpg
-  thumbnail: /images/birds/th/04 Pine Siskin Nest II.jpg
-  paypal: BJBXGUK2MGWUE
-  original: true
-  class:
-    - bird
-  type:
-    - print
-- title: Evening Grossbeak-Female
-  size: 8" x 8"
-  price: 150
-  img: /images/birds/bird-painting-nest.jpg
-  thumbnail: /images/birds/th/bird-painting-nest.jpg
-  paypal: XJFR3GBJ3UGCC
-  original: false
-  class:
-    - bird
-  type:
-    - print
+
 - title: Great Horned Owl
   size: 6" x 6"
   price: 80
@@ -175,17 +188,7 @@
     - bird
   type:
     - print
-- title: Song Sparrow Nest III
-  size: 8" x 8"
-  price: 80
-  img: /images/birds/02 Song Sparrow Nest III.jpg
-  thumbnail: /images/birds/th/02 Song Sparrow Nest III.jpg
-  paypal: UR83LQPVVAB5W
-  original: true
-  class:
-    - bird
-  type:
-    - print
+
 - title: Barn Sparrow
   size: 10" x 10"
   price: 150
