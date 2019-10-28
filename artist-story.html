@@ -69,12 +69,7 @@ permalink: /artist-story/
 		<div class="gallery-grid-item  {% for class in p.class %}{{ class }} {% endfor %}">
 			<div class="gallery-image-area">
 				<img src="{{ site.baseurl }}{{ image.path }}" class="grid-thumbnail-image" alt="" />
-				<div class="gallery-overly">
-					<a class="grid-image-zoom" href="{{ site.baseurl }}{{ image.path }}"
-						data-fancybox-group="grid-gallery">
-						<div class="gallery-zoom-icon"></div>
-					</a>
-				</div>
+				
 			</div>
 		</div>
 		{% endif %}
