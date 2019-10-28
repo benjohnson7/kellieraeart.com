@@ -948,7 +948,7 @@
     - postcard
 #END POSTCARDS
 #CARDS
-- title: Monarch Butterfly - 5 Pack
+- title: Monarch Butterfly - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/Monarch Butterfly.jpeg
@@ -957,7 +957,7 @@
   type:
     - card 
     - gift 
-- title: Painted Turtle - 5 Pack
+- title: Painted Turtle - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/Painted Turtle.jpeg
@@ -966,7 +966,7 @@
   type:
     - card 
     - gift 
-- title: Bluegill - 5 Pack
+- title: Bluegill - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/bluegill-cards.jpg
@@ -975,7 +975,7 @@
   type:
     - card 
     - gift 
-- title: Great White Heron with Eggs - 5 Pack
+- title: Great White Heron with Eggs - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/great-heron-cards.jpg
@@ -984,7 +984,7 @@
   type:
     - card 
     - gift 
-- title: Northern Leopard Frog - 5 Pack
+- title: Northern Leopard Frog - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/Northern Leopard Frog.jpeg
@@ -993,7 +993,7 @@
   type:
     - card 
     - gift 
-- title: Wood-Thrush Nest - 5 Pack
+- title: Wood-Thrush Nest - 5 Pack of cards
   size: 5" x 7"
   price: 20
   img: /images/cards-postcards/nest-cards.jpg
