@@ -969,8 +969,8 @@
 - title: Bluegill - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/bluegill-cards.jpg
+  thumbnail: /images/cards-postcards/th/bluegill-cards.jpg
   paypal: QSRSUGHD56NPG
   type:
     - card 
@@ -978,8 +978,8 @@
 - title: Great White Heron with Eggs - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/great-heron-cards.jpg
+  thumbnail: /images/cards-postcards/th/great-heron-cards.jpg
   paypal: EP9LVG9KFPF9S
   type:
     - card 
@@ -996,8 +996,8 @@
 - title: Wood-Thrush Nest - 5 Pack
   size: 5" x 7"
   price: 20
-  img: /images/theiss-placeholder.jpg
-  thumbnail: /images/theiss-placeholder.jpg
+  img: /images/cards-postcards/nest-cards.jpg
+  thumbnail: /images/cards-postcards/th/nest-cards.jpg
   paypal: BEUY8HVAGZ5Y2
   type:
     - card 
