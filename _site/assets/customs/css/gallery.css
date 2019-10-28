@@ -173,7 +173,7 @@
 
 .gallery-image-area:hover .gallery-zoom-icon {
 	opacity: 50;
-	-webkit-transform: translate(-50%, -50%) rotate(45deg);
+	-webkit-transform: translate(-50%, -50%) rotate(0deg);
 	transform: translate(-50%, -50%) rotate(0deg);
 }
 
