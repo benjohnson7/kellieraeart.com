@@ -622,6 +622,17 @@
     - iaap
   type:
     - print
+- title: Painted Turtle
+  size: 9.75" x 14.5"
+  price: 150
+  img: /images/fish/Painted Turtle.jpg
+  thumbnail: /images/fish/th/Painted Turtle.jpg
+  paypal: BSW8UTM4WFA84
+  original: false
+  class: 
+    - iaap
+  type:
+    - print
 - title: Snapping Turtle
   size: 27" x 10"
   price: 150
@@ -744,17 +755,7 @@
     - fish
   type:
     - print
-- title: Painted Turtle
-  size: 9.75" x 14.5"
-  price: 150
-  img: /images/fish/Painted Turtle.jpg
-  thumbnail: /images/fish/th/Painted Turtle.jpg
-  paypal: BSW8UTM4WFA84
-  original: false
-  class: 
-    - fish
-  type:
-    - print
+
 - title: Catch of the Day
   size: 14" x 31"
   price: 250
